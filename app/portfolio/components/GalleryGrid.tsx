@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import MotionWrapper from "@/components/common/MotionWrapper";
 
@@ -16,7 +14,7 @@ export default function GalleryGrid({
         <MotionWrapper key={index} delay={index * 0.05}>
           <div
             onClick={() => openModal(index)}
-            className="relative h-48 rounded-xl overflow-hidden cursor-pointer group"
+            className="relative w-full aspect-[3/4] rounded-xl overflow-hidden cursor-pointer group"
           >
             <Image
               src={img}

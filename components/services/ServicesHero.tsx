@@ -5,11 +5,24 @@ import Image from "next/image";
 
 export default function ServicesHero() {
   return (
-    <section className="relative min-h-[90vh] bg-gradient-to-b from-[#0b2f2a] to-[#071e1b]">
-      {/* HERO CONTENT */}
-      <div className="container mx-auto px-6 h-full">
-        <div className="grid md:grid-cols-2 h-[90vh] items-center gap-16">
-          {/* ================= LEFT TEXT (TRUE CENTER) ================= */}
+    <section
+      className="
+        relative overflow-hidden
+        bg-gradient-to-b from-[#0b2f2a] to-[#071e1b]
+        pt-20 md:pt-28
+        min-h-[calc(100vh-4rem)] md:min-h-[90vh]
+        flex items-center
+      "
+    >
+      <div className="container mx-auto px-4 sm:px-6">
+        <div
+          className="
+            flex flex-col-reverse md:grid md:grid-cols-2
+            items-center
+            gap-12 md:gap-16
+          "
+        >
+          {/* ================= LEFT TEXT ================= */}
           <motion.div
             initial="hidden"
             animate="visible"
@@ -17,14 +30,22 @@ export default function ServicesHero() {
               hidden: {},
               visible: { transition: { staggerChildren: 0.15 } },
             }}
-            className="flex flex-col justify-center"
+            className="
+              flex flex-col justify-center
+              text-center md:text-left
+            "
           >
             <motion.p
               variants={{
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="text-sm tracking-widest text-green-300 mb-4 pl-12"
+              className="
+                text-xs sm:text-sm
+                tracking-widest
+                text-green-300
+                mb-4
+              "
             >
               OUR SERVICES
             </motion.p>
@@ -34,10 +55,16 @@ export default function ServicesHero() {
                 hidden: { opacity: 0, y: 30 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="text-4xl md:text-5xl font-light text-white leading-tight mb-6 pl-12"
+              className="
+                text-3xl sm:text-4xl md:text-5xl
+                font-light text-white
+                leading-tight
+                mb-6
+                max-w-xl
+                mx-auto md:mx-0
+              "
             >
-              Designing Spaces That Elevate <br />
-              Everyday Living
+              Designing Spaces That Elevate Everyday Living
             </motion.h1>
 
             <motion.p
@@ -45,7 +72,12 @@ export default function ServicesHero() {
                 hidden: { opacity: 0, y: 20 },
                 visible: { opacity: 1, y: 0 },
               }}
-              className="text-base md:text-lg text-gray-300 max-w-lg pl-12"
+              className="
+                text-sm sm:text-base md:text-lg
+                text-gray-300
+                max-w-lg
+                mx-auto md:mx-0
+              "
             >
               Premium interior and architectural solutions thoughtfully crafted
               for modern Indian homes and commercial spaces.
@@ -54,23 +86,26 @@ export default function ServicesHero() {
 
           {/* ================= RIGHT IMAGE ================= */}
           <motion.div
-            initial={{ opacity: 0, x: 80 }}
-            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: "easeOut" }}
-            className="relative flex items-center justify-center h-full"
+            className="
+              relative flex items-center justify-center
+              w-full
+            "
           >
             {/* Ambient glow */}
-            <div className="absolute w-[80%] h-[80%] bg-green-400/20 blur-3xl rounded-full" />
+            <div className="absolute w-[70%] h-[70%] bg-green-400/20 blur-3xl rounded-full" />
 
-            {/* Image wrapper */}
-            <div className="relative w-full max-w-[520px] flex items-center justify-center pt-18">
+            {/* Image */}
+            <div className="relative w-full max-w-[420px] md:max-w-[520px] pb-4">
               <Image
                 src="/images/services_hero.gif"
                 alt="Architectural Design Services"
-                width={400}
-                height={400}
+                width={520}
+                height={520}
                 priority
-                className="object-contain max-h-[520px] rounded-sm"
+                className="object-contain w-full h-auto rounded-sm"
               />
             </div>
           </motion.div>

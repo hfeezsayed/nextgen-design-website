@@ -27,7 +27,10 @@ export default function ContactInfo() {
             <h3 className="font-semibold text-lg text-[#0E2F26] mb-2">
               Our Location
             </h3>
-            <p className="text-gray-600">Sakinaka - Andheri - 400072</p>
+            <p className="text-gray-600">
+              Shop No.3, Dhanlaxmi Lane, Andheri - Ghatkopar Link Road,Near
+              Aslpha Metro, Station,Aslpha Village, Mumbai, Maharashtra 400072
+            </p>
           </div>
 
           {/* PHONE */}
@@ -36,6 +39,8 @@ export default function ContactInfo() {
               Call Us
             </h3>
             <p className="text-gray-600">+91 9867877061</p>
+            <p className="text-gray-600">+91 9892344393</p>
+            <p className="text-gray-600">+91 8928168938</p>
           </div>
 
           {/* EMAIL */}

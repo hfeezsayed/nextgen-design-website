@@ -60,7 +60,7 @@ export default function Footer() {
             ].map(({ label, icon: Icon }) => (
               <li
                 key={label}
-                className="flex items-center gap-3 text-neutral-700 hover:text-emerald-700 transition"
+                className="flex items-center gap-3 text-neutral-700 hover:text-emerald-700 transition cursor-pointer"
               >
                 <Icon className="w-4 h-4 text-emerald-700" />
                 <span>{label}</span>
@@ -77,7 +77,7 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-neutral-700">
             <li className="flex items-start gap-3">
               <MapPin className="w-4 h-4 text-emerald-700 mt-1" />
-              Mumbai · Thane · Navi Mumbai
+              Mumbai
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-4 h-4 text-emerald-700" />

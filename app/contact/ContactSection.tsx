@@ -45,7 +45,7 @@ export default function ContactSection() {
           className="relative rounded-3xl overflow-hidden shadow-lg"
         >
           <iframe
-            src="https://www.google.com/maps?q=Mumbai&output=embed"
+            src="https://www.google.com/maps/embed?pb=!4v1769416233435!6m8!1m7!1sub0GMNh6beN8lgb4PxgTMg!2m2!1d19.09785374496606!2d72.89311911236759!3f67.20203079397325!4f6.246270877531899!5f0.7820865974627469"
             className="w-full h-[480px]"
             loading="lazy"
           />
