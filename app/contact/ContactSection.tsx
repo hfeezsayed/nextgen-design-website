@@ -95,8 +95,18 @@ export default function ContactSection() {
               <option>Residential Interior Design</option>
               <option>Commercial Interior Design</option>
               <option>Modular Kitchen</option>
+              <option>Living Room</option>
               <option>Bedroom</option>
+              <option>Bathroom</option>
+              <option>Furniture</option>
+              <option>Electrical</option>
               <option>False Ceiling</option>
+              <option>Painting</option>
+              <option>Civil</option>
+              <option>Plumbing</option>
+              <option>Fabbrication</option>
+              <option>2D Design</option>
+              <option>3D Design</option>
               <option>Others</option>
             </select>
 

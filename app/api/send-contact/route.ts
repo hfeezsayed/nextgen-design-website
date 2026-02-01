@@ -21,14 +21,13 @@ export async function POST(req: Request) {
       to: process.env.GMAIL_USER,
       subject: "New Contact Form Submission",
       text: `
-Name: ${data.name}
-Phone: ${data.phone}
-Email: ${data.email}
-City: ${data.city}
-Service: ${data.service}
-
-Message:
-${data.message}
+        Name: ${data.name}
+        Phone: ${data.phone}
+        Email: ${data.email}
+        City: ${data.city}
+        Service: ${data.service}
+        Message:
+        ${data.message}
       `,
     });
 
