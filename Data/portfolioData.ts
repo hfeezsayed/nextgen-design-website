@@ -143,8 +143,13 @@ export const portfolioData = {
         id: "salman_ali_sayed",
         location: "CLINIC - SAKINAKA",
         images: [
-          "/images/portfolio/masjid_bunder_ak_shipping/1.jpg",
-          "/images/portfolio/masjid_bunder_ak_shipping/2.jpg",
+          "/images/portfolio/sakinaka_clinic/1.jpg",
+          "/images/portfolio/sakinaka_clinic/2.jpg",
+          "/images/portfolio/sakinaka_clinic/3.jpg",
+          "/images/portfolio/sakinaka_clinic/4.jpg",
+          "/images/portfolio/sakinaka_clinic/5.jpg",
+          "/images/portfolio/sakinaka_clinic/6.jpg",
+          "/images/portfolio/sakinaka_clinic/7.jpg",
         ],
       },
     ],
@@ -154,9 +159,9 @@ export const portfolioData = {
     residential: [
       {
         id: "villa-alibaug",
-        location: "Alibaug",
+        location: "Upcoming",
         title: "Luxury Villa – Alibaug",
-        images: ["/portfolio/architecture/villa/1.jpg"],
+        images: [],
       },
     ],
     commercial: [],
