@@ -31,8 +31,8 @@ export default function Navbar() {
           <Image
             src="/images/nextgen_logo.png"
             alt="Nextgen Design – Architecture & Interior Design Firm"
-            width={32}
-            height={32}
+            width={40}
+            height={40}
             priority
           />
 
