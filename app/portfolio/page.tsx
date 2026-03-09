@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { portfolioData } from "@/Data/portfolioData";
+import { portfolioData } from "@/data/portfolioData";
 import PortfolioTabs from "./components/PortfolioTabs";
 import GalleryGrid from "./components/GalleryGrid";
 import ImageModal from "./components/ImageModal";

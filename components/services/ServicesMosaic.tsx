@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import services from "@/Data/services.json";
+import services from "@/data/services.json";
 
 export default function ServicesMosaic() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import { servicesData } from "@/Data/services";
+import { servicesData } from "@/data/services";
 import { ServiceCategory } from "@/types/services";
 import ServiceCard from "./ServiceCard";
 import { motion, AnimatePresence } from "framer-motion";

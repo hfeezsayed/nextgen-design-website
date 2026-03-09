@@ -1,4 +1,4 @@
-import { servicesData } from "@/Data/services";
+import { servicesData } from "@/data/services";
 
 export type ServiceCategory = keyof typeof servicesData;
 

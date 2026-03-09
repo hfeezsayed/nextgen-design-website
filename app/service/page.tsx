@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import Link from "next/link";
 import ServicesHero from "@/components/services/ServicesHero";
-import { servicesData } from "@/Data/services";
+import { servicesData } from "@/data/services";
 import { ServiceCategory } from "@/types/services";
 import ServicesTabs from "@/components/services/ServicesTabs";
 import ServicesGrid from "@/components/services/ServicesGrid";

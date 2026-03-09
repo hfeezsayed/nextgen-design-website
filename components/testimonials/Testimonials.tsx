@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import testimonials from "@/Data/testimonials.json";
+import testimonials from "@/data/testimonials.json";
 
 const container = {
   hidden: {},

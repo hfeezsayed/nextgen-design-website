@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import services from "@/Data/servicesDetail.json";
+import services from "@/data/servicesDetail.json";
 
 export default function ServicesDetail() {
   return (
