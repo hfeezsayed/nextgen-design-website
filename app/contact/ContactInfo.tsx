@@ -28,8 +28,9 @@ export default function ContactInfo() {
               Our Location
             </h3>
             <p className="text-gray-600">
-              Shop No.3, Dhanlaxmi Lane, Andheri - Ghatkopar Link Road,Near
-              Aslpha Metro, Station,Aslpha Village, Mumbai, Maharashtra 400072
+              Shop No.3, Above Janhit Medical Store, Dhanlaxmi Lane, Andheri -
+              Ghatkopar Link Road, Near Aslpha Metro, Station,Aslpha Village,
+              Mumbai, Maharashtra 400072
             </p>
           </div>
 

@@ -73,7 +73,7 @@ export default function WhoWeAre() {
               viewport={{ once: true }}
               className="text-gray-700 leading-relaxed"
             >
-              With over <strong>12+ years of industry experience</strong>, we
+              With over <strong>13+ years of industry experience</strong>, we
               have delivered customized residential and commercial interiors
               that reflect our clients’ lifestyle, values, and aspirations. Our
               work combines creative vision with practical execution.

@@ -81,7 +81,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-4 h-4 text-emerald-700" />
-              WhatsApp: +91 9867877061
+              WhatsApp: +91 9867877061 / 98923 44393
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-emerald-700" />
@@ -97,9 +97,7 @@ export default function Footer() {
           <span>© 2026 Nextgen Design. All rights reserved.</span>
           <span className="mt-3 md:mt-0 italic">
             Developed By{" "}
-            <span className="text-emerald-700 font-medium">
-              Hafeez Ali Sayyed
-            </span>
+            <span className="text-emerald-700 font-medium">Hafeez Ali</span>
           </span>
         </div>
       </div>
