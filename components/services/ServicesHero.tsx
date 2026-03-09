@@ -77,6 +77,7 @@ export default function ServicesHero() {
                 text-gray-300
                 max-w-lg
                 mx-auto md:mx-0
+                pb-6
               "
             >
               Premium interior and architectural solutions thoughtfully crafted
