@@ -32,7 +32,7 @@ export default function OurExpertise() {
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8,  }}
+            transition={{ duration: 0.8 }}
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-semibold mb-14 text-center"
           >
@@ -52,7 +52,6 @@ export default function OurExpertise() {
                   transition={{
                     duration: 0.6,
                     delay: index * 0.08,
-                    ,
                   }}
                   viewport={{ once: true }}
                   className="flex items-center gap-4 p-6 bg-white rounded-2xl shadow-sm hover:shadow-md transition"
@@ -102,7 +101,7 @@ export default function OurExpertise() {
               <motion.h2
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8,  }}
+                transition={{ duration: 0.8 }}
                 viewport={{ once: true }}
                 className="text-3xl md:text-4xl font-semibold mb-8 leading-tight"
               >
@@ -156,7 +155,7 @@ export default function OurExpertise() {
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1,  }}
+              transition={{ duration: 1 }}
               viewport={{ once: true }}
               className="relative"
             >
