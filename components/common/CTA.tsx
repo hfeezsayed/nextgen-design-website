@@ -15,7 +15,7 @@ export default function CTA() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.8 }}
           className="mb-6 text-3xl font-light tracking-wide text-white md:text-4xl"
         >
           Let’s Design Your Home, Together.

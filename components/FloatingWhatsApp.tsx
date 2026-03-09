@@ -35,7 +35,7 @@ export default function FloatingWhatsApp() {
       initial={{ opacity: 0, scale: 0.8 }}
       animate={controls}
       whileHover={{ scale: 1.12 }}
-      transition={{ duration: 0.4, ease: "easeOut" }}
+      transition={{ duration: 0.4 }}
       className="
         fixed 
         right-6 

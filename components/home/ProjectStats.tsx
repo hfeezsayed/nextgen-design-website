@@ -43,7 +43,7 @@ export default function ProjectStats() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.8 }}
         >
           <p className="uppercase tracking-widest text-xs text-white/70 mb-3">
             Trusted Across Mumbai
@@ -72,7 +72,7 @@ export default function ProjectStats() {
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={isInView ? { scale: 1, opacity: 1 } : {}}
-          transition={{ duration: 0.9, ease: "easeOut" }}
+          transition={{ duration: 0.9 }}
           className="flex justify-center"
         >
           <div className="relative w-[220px] h-[220px] rounded-full bg-gradient-to-br from-[#17352c] to-[#17352c] shadow-[0_30px_80px_rgba(0,0,0,0.6)] flex items-center justify-center">

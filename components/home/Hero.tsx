@@ -16,14 +16,14 @@ export default function Hero() {
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeOut" }}
+        transition={{ duration: 1.2,  }}
         className="relative z-10 max-w-4xl text-center"
       >
         {/* Brand Name */}
         <motion.h1
           initial={{ x: -120, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.2, ease: "easeOut" }}
+          transition={{ duration: 1.2,  }}
           className="text-4xl font-semibold tracking-[0.45em] text-white sm:text-5xl md:text-6xl"
         >
           NEXTGEN
@@ -33,7 +33,7 @@ export default function Hero() {
         <motion.h1
           initial={{ x: 120, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1.2, ease: "easeOut", delay: 0.15 }}
+          transition={{ duration: 1.2, , delay: 0.15 }}
           className="text-4xl font-semibold tracking-[0.45em] text-white sm:text-5xl md:text-6xl"
         >
           DESIGNS

@@ -12,7 +12,7 @@ export default function WhoWeAre() {
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            transition={{ duration: 1 }}
             viewport={{ once: true }}
             className="relative w-full"
           >
@@ -44,7 +44,7 @@ export default function WhoWeAre() {
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
+              transition={{ duration: 0.8 }}
               viewport={{ once: true }}
               className="text-3xl md:text-4xl font-semibold mb-8 leading-tight"
             >

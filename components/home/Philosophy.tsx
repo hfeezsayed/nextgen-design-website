@@ -14,7 +14,7 @@ export default function Philosophy() {
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            transition={{ duration: 1 }}
             className="relative h-[520px] w-full overflow-hidden rounded-sm"
           >
             <Image
@@ -46,7 +46,7 @@ export default function Philosophy() {
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.8, ease: "easeOut" }}
+              transition={{ duration: 0.8 }}
               className="mb-8 text-3xl font-medium leading-tight tracking-wide text-brand-dark sm:text-4xl"
             >
               Design Rooted in Purpose,

@@ -13,7 +13,7 @@ export default function ServicesDetail() {
             key={index}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, ease: "easeOut" }}
+            transition={{ duration: 0.9 }}
             viewport={{ once: true }}
             className={`grid md:grid-cols-2 gap-16 items-center ${
               index % 2 !== 0 ? "md:flex-row-reverse" : ""

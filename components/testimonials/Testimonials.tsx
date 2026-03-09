@@ -17,7 +17,7 @@ const item = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.9, ease: "easeOut" },
+    transition: { duration: 0.9 },
   },
 };
 
@@ -57,7 +57,7 @@ export default function Testimonials() {
               key={index}
               variants={item}
               whileHover={{ y: -12 }}
-              transition={{ duration: 0.35, ease: "easeOut" }}
+              transition={{ duration: 0.35 }}
               className="group relative rounded-2xl overflow-hidden bg-gray-50 p-10 cursor-default"
             >
               {/* Hover background */}
