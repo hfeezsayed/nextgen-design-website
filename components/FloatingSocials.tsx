@@ -1,20 +1,28 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Youtube } from "lucide-react";
+import { Facebook, Instagram, Youtube, MessageCircle } from "lucide-react";
 
 const socials = [
   {
     icon: <Facebook size={18} />,
+    label: "Facebook",
     link: "https://www.facebook.com/profile.php?id=100093490312681",
   },
   {
     icon: <Instagram size={18} />,
+    label: "Instagram",
     link: "https://www.instagram.com/nextgeninarch061/",
   },
   {
     icon: <Youtube size={18} />,
+    label: "YouTube",
     link: "https://www.youtube.com/@NextgenInteriorDesign",
+  },
+  {
+    icon: <MessageCircle size={18} />,
+    label: "WhatsApp",
+    link: "https://wa.me/919867877061",
   },
 ];
 

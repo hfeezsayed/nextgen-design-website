@@ -1,10 +1,11 @@
 import "./globals.css";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+//import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import FloatingSocials from "@/components/FloatingSocials";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
+import ChatWidget from "@/components/ChatWidget";
 
-//SEO
+// SEO
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -61,9 +62,15 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased" suppressHydrationWarning>
         <Navbar />
+
         <main>{children}</main>
-        <FloatingWhatsApp />
+
+        {/* <FloatingWhatsApp /> */}
         <FloatingSocials />
+
+        {/*AI Chatbot */}
+        <ChatWidget />
+
         <Footer />
       </body>
     </html>
